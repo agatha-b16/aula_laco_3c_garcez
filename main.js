@@ -4,14 +4,14 @@ function verificarTime() {
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Qual os melhor time?");
+    var respostaTime = prompt("Qual o seu filme de terror favorito, Cassie?");
 
     
-    if (respostaTime.toLowerCase() === "Athlético PR") {
-      alert("Isso mesmo! O Athlético PR é o melhor time!");
+    if (respostaTime.toLowerCase() === "Halloween") {
+      alert("Que maravilha! É sempre bom receber um fã de filmes de terror");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
-      alert("Não é isso! Tente novamente.");
+      alert("Resposta errada, Cassie. Mais cuidado nas próximas tentativas.");
     }
   }
 }
